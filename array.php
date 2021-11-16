@@ -7,6 +7,8 @@
 
  <?php
 
+
+// multi-dimensional array
 $wanafunzi = [
 
 [
@@ -32,6 +34,7 @@ array(
 
 ];
 
+// namna ya kusoma multi-dimansional array
 echo $wanafunzi[1]['jina'];
 
 
