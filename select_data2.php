@@ -20,6 +20,7 @@ $query = mysqli_query( $conn, $sql );
 
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>all users | page</title>
 	<style>
@@ -29,10 +30,12 @@ $query = mysqli_query( $conn, $sql );
 			width: auto;
 		}
 		th, td{
+			
 			border: 1px solid black;
 			padding: 6px;
 		}
 		span{
+
 			font-size: larger;
 			font-weight: bold;
 		}
